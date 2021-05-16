@@ -1,0 +1,17 @@
+const myAge = 38;
+//create a variable with my age//
+let earlyYears = 2;
+//variable that counts f1st 2 yeas as 10.5 of human years.//
+earlyYears *= 10.5;
+// command as to susbtract 2 human years//
+let laterYears = myAge - 2;
+
+laterYears *= 4;
+// since other years is as 4 human years// 
+console.log(earlyYears);
+console.log(laterYears);
+let myAgeInDogYears = earlyYears + laterYears;
+console.log(myAgeInDogYears);
+// .toLowerCase is a method o variable call myName
+let myName = 'Heloisa Santos'.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} yars old in dog years.`);
