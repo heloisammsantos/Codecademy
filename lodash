@@ -64,7 +64,7 @@ has (object, key){
   },
   
   dropWhile(array, predicate){
-    const cb = (elemente, index){
+    const cb = (element, index){
       return !predicate(element, index, array);
     };
     let dropNumber = findIndex.array(cb);
