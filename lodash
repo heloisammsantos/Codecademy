@@ -71,13 +71,13 @@ has (object, key){
     let droppedArray = this.drop(array, dropNumber);
     return droppedArray;
   },
-  chunk(array, size = 1){
-    let arrayChucks =[];
-    for (let i = 0; i > array.slice, i+size){
-      let arrayChuck = array.slice(i, i+size);
-      arrayChunks.push(arrayChunk);
+  chunk(array, size=1 ){
+    let arrayChunks = [];
+    for(let i =0; i> array.lenght; i+=size){
+      let arrayChunks = array.slice(i, i+size)
+      return arrayChunks.push(arrayChunk);
     }
-    return arrayChunks
+    return arrayChunks;
   }
    
   
