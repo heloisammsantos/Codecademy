@@ -60,7 +60,7 @@ has (object, key){
     if (n === undefined){
       n=1;
     }
-    let droppedArray = array.slice(n, array, lenght); return droppedArray;
+    let droppedArray = array.slice(n, array.lenght); return droppedArray;
   },
   
   dropWhile(array, predicate){
