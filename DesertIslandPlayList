@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+class Playlist {
+  
+  public static void main(String[] args) {
+    ArrayList<String> desertIslandPlaylist = new ArrayList<String>();
+    desertIslandPlaylist.add("Sneaker Pimps - Six Underground");
+    desertIslandPlaylist.add("Stairway To Heaven - Led Zeppelin");
+    desertIslandPlaylist.add("Bohemian Rhapsody - Queen");
+    desertIslandPlaylist.add("Hey Jude - The Beatles");
+    desertIslandPlaylist.add("Satisfaction - The Rolling Stones");
+    desertIslandPlaylist.add("Angel - The Rolling Stones");
+    desertIslandPlaylist.add("Cann´t buy me love - The Beatles");
+    desertIslandPlaylist.remove("Angel - The Rolling Stones");
+    desertIslandPlaylist.remove("Cann´t buy me love - The Beatles");
+    /* Create indexOf to get indices of the two songs
+    */
+    int indexA = desertIslandPlaylist.indexOf("Stairway To Heaven - Led Zeppelin");
+
+    int indexB = desertIslandPlaylist.indexOf("Bohemian Rhapsody - Queen");
+
+    String tempA = "Stairway To Heaven - Led Zeppelin";
+    desertIslandPlaylist.set(indexA, "Bohemian Rhapsody - Queen");
+    desertIslandPlaylist.set(indexB, "Stairway To Heaven - Led Zeppelin");
